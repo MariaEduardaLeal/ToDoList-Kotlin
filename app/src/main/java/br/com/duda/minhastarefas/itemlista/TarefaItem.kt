@@ -112,7 +112,6 @@ fun TarefaItem() {
 
             IconButton(
                 onClick = {
-
                 },
                 modifier = Modifier.constrainAs(btnDeletar){
                     top.linkTo(txtDescricao.bottom, margin = 10.dp)
